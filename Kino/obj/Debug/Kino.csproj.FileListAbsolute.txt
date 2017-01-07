@@ -1,0 +1,12 @@
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\bin\Debug\Kino.exe.config
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\bin\Debug\Kino.exe
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\bin\Debug\Kino.pdb
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.Form1.resources
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.Properties.Resources.resources
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.exe
+c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.pdb
+C:\Users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.Login.resources
+C:\Users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.Projekcije.resources
+C:\Users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.IzborSjedista.resources
