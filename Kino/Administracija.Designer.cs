@@ -31,14 +31,14 @@
             this.tabControlAdmin = new System.Windows.Forms.TabControl();
             this.Projekcije = new System.Windows.Forms.TabPage();
             this.Korisnici = new System.Windows.Forms.TabPage();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonOdustani = new System.Windows.Forms.Button();
+            this.buttonDodajKorisnika = new System.Windows.Forms.Button();
             this.checkBoxAdmin = new System.Windows.Forms.CheckBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxSifra = new System.Windows.Forms.TextBox();
+            this.labelSifra = new System.Windows.Forms.Label();
+            this.textBoxKorisničkoIme = new System.Windows.Forms.TextBox();
             this.labelKorisnickoIme = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.buttonPrikažiDodavanjeKorisnika = new System.Windows.Forms.Button();
             this.buttonIzbrisiKorisnika = new System.Windows.Forms.Button();
             this.listBoxKorisnici = new System.Windows.Forms.ListBox();
             this.buttonIzlazAdmin = new System.Windows.Forms.Button();
@@ -75,14 +75,14 @@
             this.Korisnici.BackgroundImage = global::Kino.Properties.Resources.background;
             this.Korisnici.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Korisnici.Controls.Add(this.buttonIzlazAdmin);
-            this.Korisnici.Controls.Add(this.button3);
-            this.Korisnici.Controls.Add(this.button1);
+            this.Korisnici.Controls.Add(this.buttonOdustani);
+            this.Korisnici.Controls.Add(this.buttonDodajKorisnika);
             this.Korisnici.Controls.Add(this.checkBoxAdmin);
-            this.Korisnici.Controls.Add(this.textBox2);
-            this.Korisnici.Controls.Add(this.label1);
-            this.Korisnici.Controls.Add(this.textBox1);
+            this.Korisnici.Controls.Add(this.textBoxSifra);
+            this.Korisnici.Controls.Add(this.labelSifra);
+            this.Korisnici.Controls.Add(this.textBoxKorisničkoIme);
             this.Korisnici.Controls.Add(this.labelKorisnickoIme);
-            this.Korisnici.Controls.Add(this.button2);
+            this.Korisnici.Controls.Add(this.buttonPrikažiDodavanjeKorisnika);
             this.Korisnici.Controls.Add(this.buttonIzbrisiKorisnika);
             this.Korisnici.Controls.Add(this.listBoxKorisnici);
             this.Korisnici.Location = new System.Drawing.Point(4, 26);
@@ -93,25 +93,29 @@
             this.Korisnici.Text = "Korisnici";
             this.Korisnici.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // buttonOdustani
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button3.Location = new System.Drawing.Point(327, 227);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 32);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Odustani";
-            this.button3.UseVisualStyleBackColor = true;
+            this.buttonOdustani.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonOdustani.Location = new System.Drawing.Point(327, 227);
+            this.buttonOdustani.Name = "buttonOdustani";
+            this.buttonOdustani.Size = new System.Drawing.Size(100, 32);
+            this.buttonOdustani.TabIndex = 9;
+            this.buttonOdustani.Text = "Odustani";
+            this.buttonOdustani.UseVisualStyleBackColor = true;
+            this.buttonOdustani.Visible = false;
+            this.buttonOdustani.Click += new System.EventHandler(this.buttonOdustani_Click);
             // 
-            // button1
+            // buttonDodajKorisnika
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button1.Location = new System.Drawing.Point(231, 227);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 32);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Dodaj";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonDodajKorisnika.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonDodajKorisnika.Location = new System.Drawing.Point(231, 227);
+            this.buttonDodajKorisnika.Name = "buttonDodajKorisnika";
+            this.buttonDodajKorisnika.Size = new System.Drawing.Size(90, 32);
+            this.buttonDodajKorisnika.TabIndex = 8;
+            this.buttonDodajKorisnika.Text = "Dodaj";
+            this.buttonDodajKorisnika.UseVisualStyleBackColor = true;
+            this.buttonDodajKorisnika.Visible = false;
+            this.buttonDodajKorisnika.Click += new System.EventHandler(this.buttonDodajKorisnika_Click);
             // 
             // checkBoxAdmin
             // 
@@ -125,32 +129,36 @@
             this.checkBoxAdmin.TabIndex = 7;
             this.checkBoxAdmin.Text = "Administrator";
             this.checkBoxAdmin.UseVisualStyleBackColor = true;
+            this.checkBoxAdmin.Visible = false;
             // 
-            // textBox2
+            // textBoxSifra
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox2.Location = new System.Drawing.Point(231, 150);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 27);
-            this.textBox2.TabIndex = 6;
+            this.textBoxSifra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBoxSifra.Location = new System.Drawing.Point(231, 150);
+            this.textBoxSifra.Name = "textBoxSifra";
+            this.textBoxSifra.Size = new System.Drawing.Size(196, 27);
+            this.textBoxSifra.TabIndex = 6;
+            this.textBoxSifra.Visible = false;
             // 
-            // label1
+            // labelSifra
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(227, 125);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(47, 22);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Šifra";
+            this.labelSifra.AutoSize = true;
+            this.labelSifra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelSifra.Location = new System.Drawing.Point(227, 125);
+            this.labelSifra.Name = "labelSifra";
+            this.labelSifra.Size = new System.Drawing.Size(47, 22);
+            this.labelSifra.TabIndex = 5;
+            this.labelSifra.Text = "Šifra";
+            this.labelSifra.Visible = false;
             // 
-            // textBox1
+            // textBoxKorisničkoIme
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.textBox1.Location = new System.Drawing.Point(231, 82);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 27);
-            this.textBox1.TabIndex = 4;
+            this.textBoxKorisničkoIme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBoxKorisničkoIme.Location = new System.Drawing.Point(231, 82);
+            this.textBoxKorisničkoIme.Name = "textBoxKorisničkoIme";
+            this.textBoxKorisničkoIme.Size = new System.Drawing.Size(196, 27);
+            this.textBoxKorisničkoIme.TabIndex = 4;
+            this.textBoxKorisničkoIme.Visible = false;
             // 
             // labelKorisnickoIme
             // 
@@ -161,16 +169,18 @@
             this.labelKorisnickoIme.Size = new System.Drawing.Size(126, 22);
             this.labelKorisnickoIme.TabIndex = 3;
             this.labelKorisnickoIme.Text = "Korisničko ime";
+            this.labelKorisnickoIme.Visible = false;
             // 
-            // button2
+            // buttonPrikažiDodavanjeKorisnika
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button2.Location = new System.Drawing.Point(42, 309);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(139, 31);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Dodaj korisnika";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonPrikažiDodavanjeKorisnika.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonPrikažiDodavanjeKorisnika.Location = new System.Drawing.Point(42, 309);
+            this.buttonPrikažiDodavanjeKorisnika.Name = "buttonPrikažiDodavanjeKorisnika";
+            this.buttonPrikažiDodavanjeKorisnika.Size = new System.Drawing.Size(139, 31);
+            this.buttonPrikažiDodavanjeKorisnika.TabIndex = 2;
+            this.buttonPrikažiDodavanjeKorisnika.Text = "Dodaj korisnika";
+            this.buttonPrikažiDodavanjeKorisnika.UseVisualStyleBackColor = true;
+            this.buttonPrikažiDodavanjeKorisnika.Click += new System.EventHandler(this.buttonPrikažiDodavanjeKorisnika_Click);
             // 
             // buttonIzbrisiKorisnika
             // 
@@ -181,6 +191,7 @@
             this.buttonIzbrisiKorisnika.TabIndex = 1;
             this.buttonIzbrisiKorisnika.Text = "Izbriši korisnika";
             this.buttonIzbrisiKorisnika.UseVisualStyleBackColor = true;
+            this.buttonIzbrisiKorisnika.Click += new System.EventHandler(this.buttonIzbrisiKorisnika_Click);
             // 
             // listBoxKorisnici
             // 
@@ -230,14 +241,14 @@
 
         private System.Windows.Forms.TabControl tabControlAdmin;
         private System.Windows.Forms.TabPage Korisnici;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonOdustani;
+        private System.Windows.Forms.Button buttonDodajKorisnika;
         private System.Windows.Forms.CheckBox checkBoxAdmin;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxSifra;
+        private System.Windows.Forms.Label labelSifra;
+        private System.Windows.Forms.TextBox textBoxKorisničkoIme;
         private System.Windows.Forms.Label labelKorisnickoIme;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button buttonPrikažiDodavanjeKorisnika;
         private System.Windows.Forms.Button buttonIzbrisiKorisnika;
         private System.Windows.Forms.ListBox listBoxKorisnici;
         private System.Windows.Forms.TabPage Projekcije;
