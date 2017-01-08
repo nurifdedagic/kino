@@ -29,5 +29,12 @@ namespace Kino
             f3.Closed += (s, args) => this.Close();
             f3.Show();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Administracija admin = new Administracija();
+            admin.Show();
+        }
     }
 }

@@ -184,7 +184,7 @@
             this.label1.Font = new System.Drawing.Font("Algerian", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(133, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(185, 30);
+            this.label1.Size = new System.Drawing.Size(206, 34);
             this.label1.TabIndex = 2;
             this.label1.Text = "Izbor filma";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -197,6 +197,7 @@
             this.button11.TabIndex = 3;
             this.button11.Text = "Admin panel";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Form1
             // 

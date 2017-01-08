@@ -41,6 +41,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.buttonIzbrisiKorisnika = new System.Windows.Forms.Button();
             this.listBoxKorisnici = new System.Windows.Forms.ListBox();
+            this.buttonIzlazAdmin = new System.Windows.Forms.Button();
             this.tabControlAdmin.SuspendLayout();
             this.Korisnici.SuspendLayout();
             this.SuspendLayout();
@@ -73,6 +74,7 @@
             // 
             this.Korisnici.BackgroundImage = global::Kino.Properties.Resources.background;
             this.Korisnici.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Korisnici.Controls.Add(this.buttonIzlazAdmin);
             this.Korisnici.Controls.Add(this.button3);
             this.Korisnici.Controls.Add(this.button1);
             this.Korisnici.Controls.Add(this.checkBoxAdmin);
@@ -198,6 +200,17 @@
             this.listBoxKorisnici.Sorted = true;
             this.listBoxKorisnici.TabIndex = 0;
             // 
+            // buttonIzlazAdmin
+            // 
+            this.buttonIzlazAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonIzlazAdmin.Location = new System.Drawing.Point(411, 0);
+            this.buttonIzlazAdmin.Name = "buttonIzlazAdmin";
+            this.buttonIzlazAdmin.Size = new System.Drawing.Size(69, 27);
+            this.buttonIzlazAdmin.TabIndex = 10;
+            this.buttonIzlazAdmin.Text = "Izlaz";
+            this.buttonIzlazAdmin.UseVisualStyleBackColor = true;
+            this.buttonIzlazAdmin.Click += new System.EventHandler(this.buttonIzlazAdmin_Click);
+            // 
             // Administracija
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -228,5 +241,6 @@
         private System.Windows.Forms.Button buttonIzbrisiKorisnika;
         private System.Windows.Forms.ListBox listBoxKorisnici;
         private System.Windows.Forms.TabPage Projekcije;
+        private System.Windows.Forms.Button buttonIzlazAdmin;
     }
 }

@@ -16,5 +16,12 @@ namespace Kino
         {
             InitializeComponent();
         }
+
+        private void buttonIzlazAdmin_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
     }
 }
