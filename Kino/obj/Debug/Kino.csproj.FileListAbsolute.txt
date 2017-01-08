@@ -10,3 +10,16 @@ c:\users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.pd
 C:\Users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.Login.resources
 C:\Users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.Projekcije.resources
 C:\Users\nurif\documents\visual studio 2013\Projects\Kino\Kino\obj\Debug\Kino.IzborSjedista.resources
+C:\Users\EminaAjla\Source\Repos\kino\Kino\bin\Debug\Kino.exe.config
+C:\Users\EminaAjla\Source\Repos\kino\Kino\bin\Debug\Kino.exe
+C:\Users\EminaAjla\Source\Repos\kino\Kino\bin\Debug\Kino.pdb
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.csprojResolveAssemblyReference.cache
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.Administracija.resources
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.Form1.resources
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.IzborSjedista.resources
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.Login.resources
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.Projekcije.resources
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.Properties.Resources.resources
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.exe
+C:\Users\EminaAjla\Source\Repos\kino\Kino\obj\Debug\Kino.pdb

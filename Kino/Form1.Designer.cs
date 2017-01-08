@@ -42,7 +42,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.button11 = new System.Windows.Forms.Button();
+            this.buttonAdminPanel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -189,15 +189,16 @@
             this.label1.Text = "Izbor filma";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button11
+            // buttonAdminPanel
             // 
-            this.button11.Location = new System.Drawing.Point(572, 46);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 3;
-            this.button11.Text = "Admin panel";
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
+            this.buttonAdminPanel.Location = new System.Drawing.Point(572, 46);
+            this.buttonAdminPanel.Name = "buttonAdminPanel";
+            this.buttonAdminPanel.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdminPanel.TabIndex = 3;
+            this.buttonAdminPanel.Text = "Admin panel";
+            this.buttonAdminPanel.UseVisualStyleBackColor = true;
+            this.buttonAdminPanel.Visible = false;
+            this.buttonAdminPanel.Click += new System.EventHandler(this.buttonAdminPanel_Click);
             // 
             // Form1
             // 
@@ -206,7 +207,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(654, 456);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.buttonAdminPanel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
@@ -234,7 +235,7 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button buttonAdminPanel;
     }
 }
 

@@ -28,29 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxIme = new System.Windows.Forms.TextBox();
+            this.textBoxSifra = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.errorProviderInvalidUser = new System.Windows.Forms.ErrorProvider(this.components);
+            this.labelForErrorProvider = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderInvalidUser)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBoxIme
             // 
-            this.textBox1.Location = new System.Drawing.Point(168, 194);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(132, 20);
-            this.textBox1.TabIndex = 0;
+            this.textBoxIme.Location = new System.Drawing.Point(168, 194);
+            this.textBoxIme.Name = "textBoxIme";
+            this.textBoxIme.Size = new System.Drawing.Size(132, 20);
+            this.textBoxIme.TabIndex = 0;
             // 
-            // textBox2
+            // textBoxSifra
             // 
-            this.textBox2.Location = new System.Drawing.Point(168, 247);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(132, 20);
-            this.textBox2.TabIndex = 1;
+            this.textBoxSifra.Location = new System.Drawing.Point(168, 247);
+            this.textBoxSifra.Name = "textBoxSifra";
+            this.textBoxSifra.Size = new System.Drawing.Size(132, 20);
+            this.textBoxSifra.TabIndex = 1;
             // 
             // button1
             // 
@@ -58,7 +62,7 @@
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(202, 287);
+            this.button1.Location = new System.Drawing.Point(204, 287);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(61, 58);
             this.button1.TabIndex = 2;
@@ -69,9 +73,10 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(165, 231);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(165, 229);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 13);
+            this.label2.Size = new System.Drawing.Size(57, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Lozinka:";
             // 
@@ -79,9 +84,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(165, 178);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(165, 175);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 13);
+            this.label1.Size = new System.Drawing.Size(98, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Korisnicko ime:";
             // 
@@ -95,6 +101,22 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // errorProviderInvalidUser
+            // 
+            this.errorProviderInvalidUser.ContainerControl = this;
+            // 
+            // labelForErrorProvider
+            // 
+            this.labelForErrorProvider.AutoSize = true;
+            this.labelForErrorProvider.BackColor = System.Drawing.Color.Transparent;
+            this.labelForErrorProvider.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelForErrorProvider.Location = new System.Drawing.Point(168, 351);
+            this.labelForErrorProvider.Name = "labelForErrorProvider";
+            this.labelForErrorProvider.Size = new System.Drawing.Size(133, 16);
+            this.labelForErrorProvider.TabIndex = 7;
+            this.labelForErrorProvider.Text = "Nepostojeći korisnik.";
+            this.labelForErrorProvider.Visible = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,15 +124,17 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(478, 404);
+            this.Controls.Add(this.labelForErrorProvider);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxSifra);
+            this.Controls.Add(this.textBoxIme);
             this.Name = "Login";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProviderInvalidUser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -118,11 +142,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxIme;
+        private System.Windows.Forms.TextBox textBoxSifra;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.ErrorProvider errorProviderInvalidUser;
+        private System.Windows.Forms.Label labelForErrorProvider;
     }
 }

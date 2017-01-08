@@ -17,6 +17,12 @@ namespace Kino
             InitializeComponent();
         }
 
+        public Form1(bool isAdmin)
+        {
+            InitializeComponent();
+            if(isAdmin) buttonAdminPanel.Visible = true;
+        }
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -30,7 +36,7 @@ namespace Kino
             f3.Show();
         }
 
-        private void button11_Click(object sender, EventArgs e)
+        private void buttonAdminPanel_Click(object sender, EventArgs e)
         {
             this.Hide();
             Administracija admin = new Administracija();
