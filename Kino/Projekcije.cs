@@ -26,5 +26,13 @@ namespace Kino
         {
 
         }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            IzborSjedista f4 = new IzborSjedista();
+            f4.Closed += (s, args) => this.Close();
+            f4.Show();
+        }
     }
 }

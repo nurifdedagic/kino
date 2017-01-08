@@ -24,12 +24,12 @@ namespace Kino
 
         private void button13_Click(object sender, EventArgs e)
         {
-            if (button13.BackColor==Color.LightGreen) {
+            if (button13.BackColor==Color.PaleGreen) {
                 button13.BackColor = Color.SkyBlue;
             }
             else if (button13.BackColor == Color.SkyBlue)
             {
-                button13.BackColor = Color.LightGreen;
+                button13.BackColor = Color.PaleGreen;
             }
         }
     }
