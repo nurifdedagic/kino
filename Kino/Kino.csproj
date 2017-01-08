@@ -76,6 +76,12 @@
       <DependentUpon>Projekcije.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Racun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Racun.Designer.cs">
+      <DependentUpon>Racun.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Administracija.resx">
       <DependentUpon>Administracija.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +107,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Racun.resx">
+      <DependentUpon>Racun.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

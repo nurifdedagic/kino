@@ -12,6 +12,7 @@ namespace Kino
 {
     public partial class Form1 : Form
     {
+        public static int brMjesta=0;
         public Form1()
         {
             InitializeComponent();

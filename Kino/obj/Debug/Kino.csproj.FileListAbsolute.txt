@@ -36,3 +36,4 @@ C:\Users\nurif\Documents\GitHub\kino\Kino\obj\Debug\Kino.Login.resources
 C:\Users\nurif\Documents\GitHub\kino\Kino\obj\Debug\Kino.Projekcije.resources
 C:\Users\nurif\Documents\GitHub\kino\Kino\obj\Debug\Kino.Properties.Resources.resources
 C:\Users\nurif\Documents\GitHub\kino\Kino\obj\Debug\Kino.csproj.GenerateResource.Cache
+C:\Users\nurif\Documents\GitHub\kino\Kino\obj\Debug\Kino.Racun.resources
