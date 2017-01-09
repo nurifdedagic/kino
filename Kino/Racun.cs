@@ -23,5 +23,10 @@ namespace Kino
         {
             
         }
+
+        private void Racun_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
