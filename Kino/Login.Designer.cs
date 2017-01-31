@@ -53,6 +53,7 @@
             // 
             this.textBoxSifra.Location = new System.Drawing.Point(168, 247);
             this.textBoxSifra.Name = "textBoxSifra";
+            this.textBoxSifra.PasswordChar = '*';
             this.textBoxSifra.Size = new System.Drawing.Size(132, 20);
             this.textBoxSifra.TabIndex = 1;
             // 
@@ -76,7 +77,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label2.Location = new System.Drawing.Point(165, 229);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 16);
+            this.label2.Size = new System.Drawing.Size(53, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "Lozinka:";
             // 
@@ -87,7 +88,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.Location = new System.Drawing.Point(165, 175);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 16);
+            this.label1.Size = new System.Drawing.Size(91, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Korisnicko ime:";
             // 
@@ -112,7 +113,7 @@
             this.labelForErrorProvider.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelForErrorProvider.Location = new System.Drawing.Point(168, 351);
             this.labelForErrorProvider.Name = "labelForErrorProvider";
-            this.labelForErrorProvider.Size = new System.Drawing.Size(133, 16);
+            this.labelForErrorProvider.Size = new System.Drawing.Size(120, 15);
             this.labelForErrorProvider.TabIndex = 7;
             this.labelForErrorProvider.Text = "Nepostojeći korisnik.";
             this.labelForErrorProvider.Visible = false;

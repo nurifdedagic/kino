@@ -49,10 +49,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Algerian", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(167, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 30);
+            this.label1.Size = new System.Drawing.Size(126, 31);
             this.label1.TabIndex = 4;
             this.label1.Text = "Plaćanje";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -155,6 +155,7 @@
             this.button64.Size = new System.Drawing.Size(47, 44);
             this.button64.TabIndex = 69;
             this.button64.UseVisualStyleBackColor = false;
+            this.button64.Click += new System.EventHandler(this.button64_Click);
             // 
             // button65
             // 
@@ -168,6 +169,7 @@
             this.button65.Size = new System.Drawing.Size(47, 44);
             this.button65.TabIndex = 70;
             this.button65.UseVisualStyleBackColor = false;
+            this.button65.Click += new System.EventHandler(this.button65_Click);
             // 
             // button66
             // 
@@ -181,6 +183,7 @@
             this.button66.Size = new System.Drawing.Size(54, 51);
             this.button66.TabIndex = 71;
             this.button66.UseVisualStyleBackColor = false;
+            this.button66.Click += new System.EventHandler(this.button66_Click);
             // 
             // label9
             // 

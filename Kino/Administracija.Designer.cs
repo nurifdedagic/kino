@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.tabControlAdmin = new System.Windows.Forms.TabControl();
-            this.Projekcije = new System.Windows.Forms.TabPage();
             this.Korisnici = new System.Windows.Forms.TabPage();
+            this.buttonIzlazAdmin = new System.Windows.Forms.Button();
             this.buttonOdustani = new System.Windows.Forms.Button();
             this.buttonDodajKorisnika = new System.Windows.Forms.Button();
             this.checkBoxAdmin = new System.Windows.Forms.CheckBox();
@@ -41,15 +42,23 @@
             this.buttonPrikažiDodavanjeKorisnika = new System.Windows.Forms.Button();
             this.buttonIzbrisiKorisnika = new System.Windows.Forms.Button();
             this.listBoxKorisnici = new System.Windows.Forms.ListBox();
-            this.buttonIzlazAdmin = new System.Windows.Forms.Button();
+            this.Projekcije1 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.loginBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tabControlAdmin.SuspendLayout();
             this.Korisnici.SuspendLayout();
+            this.Projekcije1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loginBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControlAdmin
             // 
             this.tabControlAdmin.Controls.Add(this.Korisnici);
-            this.tabControlAdmin.Controls.Add(this.Projekcije);
+            this.tabControlAdmin.Controls.Add(this.Projekcije1);
             this.tabControlAdmin.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.tabControlAdmin.Location = new System.Drawing.Point(0, 0);
@@ -58,17 +67,6 @@
             this.tabControlAdmin.SelectedIndex = 0;
             this.tabControlAdmin.Size = new System.Drawing.Size(488, 410);
             this.tabControlAdmin.TabIndex = 0;
-            // 
-            // Projekcije
-            // 
-            this.Projekcije.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.Projekcije.Location = new System.Drawing.Point(4, 26);
-            this.Projekcije.Name = "Projekcije";
-            this.Projekcije.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Projekcije.Size = new System.Drawing.Size(480, 380);
-            this.Projekcije.TabIndex = 1;
-            this.Projekcije.Text = "Projekcije";
-            this.Projekcije.UseVisualStyleBackColor = true;
             // 
             // Korisnici
             // 
@@ -85,13 +83,24 @@
             this.Korisnici.Controls.Add(this.buttonPrikažiDodavanjeKorisnika);
             this.Korisnici.Controls.Add(this.buttonIzbrisiKorisnika);
             this.Korisnici.Controls.Add(this.listBoxKorisnici);
-            this.Korisnici.Location = new System.Drawing.Point(4, 26);
+            this.Korisnici.Location = new System.Drawing.Point(4, 25);
             this.Korisnici.Name = "Korisnici";
-            this.Korisnici.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.Korisnici.Size = new System.Drawing.Size(480, 380);
+            this.Korisnici.Padding = new System.Windows.Forms.Padding(3);
+            this.Korisnici.Size = new System.Drawing.Size(480, 381);
             this.Korisnici.TabIndex = 0;
             this.Korisnici.Text = "Korisnici";
             this.Korisnici.UseVisualStyleBackColor = true;
+            // 
+            // buttonIzlazAdmin
+            // 
+            this.buttonIzlazAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonIzlazAdmin.Location = new System.Drawing.Point(403, 19);
+            this.buttonIzlazAdmin.Name = "buttonIzlazAdmin";
+            this.buttonIzlazAdmin.Size = new System.Drawing.Size(69, 27);
+            this.buttonIzlazAdmin.TabIndex = 10;
+            this.buttonIzlazAdmin.Text = "Nazad";
+            this.buttonIzlazAdmin.UseVisualStyleBackColor = true;
+            this.buttonIzlazAdmin.Click += new System.EventHandler(this.buttonIzlazAdmin_Click);
             // 
             // buttonOdustani
             // 
@@ -125,7 +134,7 @@
             this.checkBoxAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.checkBoxAdmin.Location = new System.Drawing.Point(231, 195);
             this.checkBoxAdmin.Name = "checkBoxAdmin";
-            this.checkBoxAdmin.Size = new System.Drawing.Size(114, 22);
+            this.checkBoxAdmin.Size = new System.Drawing.Size(110, 21);
             this.checkBoxAdmin.TabIndex = 7;
             this.checkBoxAdmin.Text = "Administrator";
             this.checkBoxAdmin.UseVisualStyleBackColor = true;
@@ -136,7 +145,7 @@
             this.textBoxSifra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.textBoxSifra.Location = new System.Drawing.Point(231, 150);
             this.textBoxSifra.Name = "textBoxSifra";
-            this.textBoxSifra.Size = new System.Drawing.Size(196, 27);
+            this.textBoxSifra.Size = new System.Drawing.Size(196, 26);
             this.textBoxSifra.TabIndex = 6;
             this.textBoxSifra.Visible = false;
             // 
@@ -146,7 +155,7 @@
             this.labelSifra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelSifra.Location = new System.Drawing.Point(227, 125);
             this.labelSifra.Name = "labelSifra";
-            this.labelSifra.Size = new System.Drawing.Size(47, 22);
+            this.labelSifra.Size = new System.Drawing.Size(42, 20);
             this.labelSifra.TabIndex = 5;
             this.labelSifra.Text = "Šifra";
             this.labelSifra.Visible = false;
@@ -156,7 +165,7 @@
             this.textBoxKorisničkoIme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.textBoxKorisničkoIme.Location = new System.Drawing.Point(231, 82);
             this.textBoxKorisničkoIme.Name = "textBoxKorisničkoIme";
-            this.textBoxKorisničkoIme.Size = new System.Drawing.Size(196, 27);
+            this.textBoxKorisničkoIme.Size = new System.Drawing.Size(196, 26);
             this.textBoxKorisničkoIme.TabIndex = 4;
             this.textBoxKorisničkoIme.Visible = false;
             // 
@@ -166,7 +175,7 @@
             this.labelKorisnickoIme.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelKorisnickoIme.Location = new System.Drawing.Point(227, 57);
             this.labelKorisnickoIme.Name = "labelKorisnickoIme";
-            this.labelKorisnickoIme.Size = new System.Drawing.Size(126, 22);
+            this.labelKorisnickoIme.Size = new System.Drawing.Size(110, 20);
             this.labelKorisnickoIme.TabIndex = 3;
             this.labelKorisnickoIme.Text = "Korisničko ime";
             this.labelKorisnickoIme.Visible = false;
@@ -198,29 +207,79 @@
             this.listBoxKorisnici.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.listBoxKorisnici.FormattingEnabled = true;
             this.listBoxKorisnici.ItemHeight = 20;
-            this.listBoxKorisnici.Items.AddRange(new object[] {
-            "Korisnik 1",
-            "Korisnik 2",
-            "Korisnik 3",
-            "Korisnik 4"});
             this.listBoxKorisnici.Location = new System.Drawing.Point(42, 35);
-            this.listBoxKorisnici.Margin = new System.Windows.Forms.Padding(15, 15, 15, 15);
+            this.listBoxKorisnici.Margin = new System.Windows.Forms.Padding(15);
             this.listBoxKorisnici.Name = "listBoxKorisnici";
             this.listBoxKorisnici.ScrollAlwaysVisible = true;
             this.listBoxKorisnici.Size = new System.Drawing.Size(139, 224);
             this.listBoxKorisnici.Sorted = true;
             this.listBoxKorisnici.TabIndex = 0;
             // 
-            // buttonIzlazAdmin
+            // Projekcije1
             // 
-            this.buttonIzlazAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonIzlazAdmin.Location = new System.Drawing.Point(411, 0);
-            this.buttonIzlazAdmin.Name = "buttonIzlazAdmin";
-            this.buttonIzlazAdmin.Size = new System.Drawing.Size(69, 27);
-            this.buttonIzlazAdmin.TabIndex = 10;
-            this.buttonIzlazAdmin.Text = "Izlaz";
-            this.buttonIzlazAdmin.UseVisualStyleBackColor = true;
-            this.buttonIzlazAdmin.Click += new System.EventHandler(this.buttonIzlazAdmin_Click);
+            this.Projekcije1.Controls.Add(this.button1);
+            this.Projekcije1.Controls.Add(this.comboBox1);
+            this.Projekcije1.Controls.Add(this.label1);
+            this.Projekcije1.Controls.Add(this.dataGridView1);
+            this.Projekcije1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Projekcije1.Location = new System.Drawing.Point(4, 25);
+            this.Projekcije1.Name = "Projekcije1";
+            this.Projekcije1.Padding = new System.Windows.Forms.Padding(3);
+            this.Projekcije1.Size = new System.Drawing.Size(480, 381);
+            this.Projekcije1.TabIndex = 1;
+            this.Projekcije1.Text = "Projekcije";
+            this.Projekcije1.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(403, 19);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(69, 27);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Nazad";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Ant-man",
+            "Batman v Superman",
+            "Civil wars",
+            "Finding Nemo",
+            "Mechanic",
+            "Rise guardians",
+            "Star Wars: The force awakens",
+            "Tarzan",
+            "The jungle book",
+            "The revenant"});
+            this.comboBox1.Location = new System.Drawing.Point(60, 19);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(286, 32);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(8, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(46, 24);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Film";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(6, 59);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(466, 314);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // loginBindingSource
+            // 
+            this.loginBindingSource.DataSource = typeof(Kino.Login);
             // 
             // Administracija
             // 
@@ -233,6 +292,10 @@
             this.tabControlAdmin.ResumeLayout(false);
             this.Korisnici.ResumeLayout(false);
             this.Korisnici.PerformLayout();
+            this.Projekcije1.ResumeLayout(false);
+            this.Projekcije1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loginBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -251,7 +314,12 @@
         private System.Windows.Forms.Button buttonPrikažiDodavanjeKorisnika;
         private System.Windows.Forms.Button buttonIzbrisiKorisnika;
         private System.Windows.Forms.ListBox listBoxKorisnici;
-        private System.Windows.Forms.TabPage Projekcije;
+        private System.Windows.Forms.TabPage Projekcije1;
         private System.Windows.Forms.Button buttonIzlazAdmin;
+        private System.Windows.Forms.BindingSource loginBindingSource;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -124,7 +124,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button1.BackColor = System.Drawing.Color.PaleGreen;
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Location = new System.Drawing.Point(293, 194);
@@ -136,7 +136,7 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.LightCoral;
+            //this.button2.BackColor = System.Drawing.Color.LightCoral;
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Location = new System.Drawing.Point(381, 230);
@@ -148,7 +148,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button3.BackColor = System.Drawing.Color.PaleGreen;
             this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button3.Location = new System.Drawing.Point(337, 230);
@@ -160,7 +160,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button4.BackColor = System.Drawing.Color.PaleGreen;
             this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button4.Location = new System.Drawing.Point(293, 230);
@@ -172,7 +172,7 @@
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.LightCoral;
+            //this.button5.BackColor = System.Drawing.Color.LightCoral;
             this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
             this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button5.Location = new System.Drawing.Point(249, 230);
@@ -184,7 +184,7 @@
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button6.BackColor = System.Drawing.Color.PaleGreen;
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button6.Location = new System.Drawing.Point(205, 230);
@@ -196,7 +196,7 @@
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button7.BackColor = System.Drawing.Color.PaleGreen;
             this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button7.Location = new System.Drawing.Point(358, 266);
@@ -208,7 +208,7 @@
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.LightCoral;
+            //this.button8.BackColor = System.Drawing.Color.LightCoral;
             this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
             this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button8.Location = new System.Drawing.Point(314, 266);
@@ -220,7 +220,7 @@
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button9.BackColor = System.Drawing.Color.PaleGreen;
             this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
             this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button9.Location = new System.Drawing.Point(270, 266);
@@ -232,7 +232,7 @@
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button10.BackColor = System.Drawing.Color.PaleGreen;
             this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
             this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button10.Location = new System.Drawing.Point(226, 266);
@@ -244,7 +244,7 @@
             // 
             // button11
             // 
-            this.button11.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button11.BackColor = System.Drawing.Color.PaleGreen;
             this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
             this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button11.Location = new System.Drawing.Point(337, 302);
@@ -256,7 +256,7 @@
             // 
             // button12
             // 
-            this.button12.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button12.BackColor = System.Drawing.Color.PaleGreen;
             this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
             this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button12.Location = new System.Drawing.Point(293, 302);
@@ -268,7 +268,7 @@
             // 
             // button13
             // 
-            this.button13.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button13.BackColor = System.Drawing.Color.PaleGreen;
             this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
             this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button13.Location = new System.Drawing.Point(249, 302);
@@ -280,7 +280,7 @@
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button14.BackColor = System.Drawing.Color.PaleGreen;
             this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
             this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button14.Location = new System.Drawing.Point(205, 194);
@@ -292,7 +292,7 @@
             // 
             // button15
             // 
-            this.button15.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button15.BackColor = System.Drawing.Color.PaleGreen;
             this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
             this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button15.Location = new System.Drawing.Point(249, 194);
@@ -304,7 +304,7 @@
             // 
             // button16
             // 
-            this.button16.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button16.BackColor = System.Drawing.Color.PaleGreen;
             this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
             this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button16.Location = new System.Drawing.Point(337, 194);
@@ -316,7 +316,7 @@
             // 
             // button17
             // 
-            this.button17.BackColor = System.Drawing.Color.LightCoral;
+            //this.button17.BackColor = System.Drawing.Color.LightCoral;
             this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
             this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button17.Location = new System.Drawing.Point(381, 194);
@@ -328,7 +328,7 @@
             // 
             // button18
             // 
-            this.button18.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button18.BackColor = System.Drawing.Color.PaleGreen;
             this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
             this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button18.Location = new System.Drawing.Point(153, 302);
@@ -340,7 +340,7 @@
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button19.BackColor = System.Drawing.Color.PaleGreen;
             this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
             this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button19.Location = new System.Drawing.Point(109, 302);
@@ -352,7 +352,7 @@
             // 
             // button20
             // 
-            this.button20.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button20.BackColor = System.Drawing.Color.PaleGreen;
             this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
             this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button20.Location = new System.Drawing.Point(65, 302);
@@ -364,7 +364,7 @@
             // 
             // button21
             // 
-            this.button21.BackColor = System.Drawing.Color.LightCoral;
+            //this.button21.BackColor = System.Drawing.Color.LightCoral;
             this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
             this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button21.Location = new System.Drawing.Point(141, 266);
@@ -376,7 +376,7 @@
             // 
             // button22
             // 
-            this.button22.BackColor = System.Drawing.Color.LightCoral;
+            //this.button22.BackColor = System.Drawing.Color.LightCoral;
             this.button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button22.BackgroundImage")));
             this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button22.Location = new System.Drawing.Point(97, 266);
@@ -388,7 +388,7 @@
             // 
             // button23
             // 
-            this.button23.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button23.BackColor = System.Drawing.Color.PaleGreen;
             this.button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button23.BackgroundImage")));
             this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button23.Location = new System.Drawing.Point(53, 266);
@@ -400,7 +400,7 @@
             // 
             // button24
             // 
-            this.button24.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button24.BackColor = System.Drawing.Color.PaleGreen;
             this.button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button24.BackgroundImage")));
             this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button24.Location = new System.Drawing.Point(129, 230);
@@ -412,7 +412,7 @@
             // 
             // button25
             // 
-            this.button25.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button25.BackColor = System.Drawing.Color.PaleGreen;
             this.button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button25.BackgroundImage")));
             this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button25.Location = new System.Drawing.Point(85, 230);
@@ -424,7 +424,7 @@
             // 
             // button26
             // 
-            this.button26.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button26.BackColor = System.Drawing.Color.PaleGreen;
             this.button26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button26.BackgroundImage")));
             this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button26.Location = new System.Drawing.Point(41, 230);
@@ -436,7 +436,7 @@
             // 
             // button27
             // 
-            this.button27.BackColor = System.Drawing.Color.LightCoral;
+            //this.button27.BackColor = System.Drawing.Color.LightCoral;
             this.button27.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button27.BackgroundImage")));
             this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button27.Location = new System.Drawing.Point(120, 194);
@@ -448,7 +448,7 @@
             // 
             // button28
             // 
-            this.button28.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button28.BackColor = System.Drawing.Color.PaleGreen;
             this.button28.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button28.BackgroundImage")));
             this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button28.Location = new System.Drawing.Point(76, 194);
@@ -460,7 +460,7 @@
             // 
             // button29
             // 
-            this.button29.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button29.BackColor = System.Drawing.Color.PaleGreen;
             this.button29.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button29.BackgroundImage")));
             this.button29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button29.Location = new System.Drawing.Point(32, 194);
@@ -472,7 +472,7 @@
             // 
             // button30
             // 
-            this.button30.BackColor = System.Drawing.Color.LightCoral;
+            //this.button30.BackColor = System.Drawing.Color.LightCoral;
             this.button30.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button30.BackgroundImage")));
             this.button30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button30.Location = new System.Drawing.Point(32, 158);
@@ -484,7 +484,7 @@
             // 
             // button31
             // 
-            this.button31.BackColor = System.Drawing.Color.LightCoral;
+            //this.button31.BackColor = System.Drawing.Color.LightCoral;
             this.button31.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button31.BackgroundImage")));
             this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button31.Location = new System.Drawing.Point(76, 158);
@@ -496,7 +496,7 @@
             // 
             // button32
             // 
-            this.button32.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button32.BackColor = System.Drawing.Color.PaleGreen;
             this.button32.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button32.BackgroundImage")));
             this.button32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button32.Location = new System.Drawing.Point(120, 158);
@@ -508,7 +508,7 @@
             // 
             // button33
             // 
-            this.button33.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button33.BackColor = System.Drawing.Color.PaleGreen;
             this.button33.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button33.BackgroundImage")));
             this.button33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button33.Location = new System.Drawing.Point(32, 122);
@@ -520,7 +520,7 @@
             // 
             // button34
             // 
-            this.button34.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button34.BackColor = System.Drawing.Color.PaleGreen;
             this.button34.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button34.BackgroundImage")));
             this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button34.Location = new System.Drawing.Point(76, 122);
@@ -532,7 +532,7 @@
             // 
             // button35
             // 
-            this.button35.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button35.BackColor = System.Drawing.Color.PaleGreen;
             this.button35.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button35.BackgroundImage")));
             this.button35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button35.Location = new System.Drawing.Point(120, 122);
@@ -544,7 +544,7 @@
             // 
             // button36
             // 
-            this.button36.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button36.BackColor = System.Drawing.Color.PaleGreen;
             this.button36.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button36.BackgroundImage")));
             this.button36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button36.Location = new System.Drawing.Point(441, 302);
@@ -556,7 +556,7 @@
             // 
             // button37
             // 
-            this.button37.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button37.BackColor = System.Drawing.Color.PaleGreen;
             this.button37.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button37.BackgroundImage")));
             this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button37.Location = new System.Drawing.Point(485, 302);
@@ -568,7 +568,7 @@
             // 
             // button38
             // 
-            this.button38.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button38.BackColor = System.Drawing.Color.PaleGreen;
             this.button38.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button38.BackgroundImage")));
             this.button38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button38.Location = new System.Drawing.Point(529, 302);
@@ -580,7 +580,7 @@
             // 
             // button39
             // 
-            this.button39.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button39.BackColor = System.Drawing.Color.PaleGreen;
             this.button39.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button39.BackgroundImage")));
             this.button39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button39.Location = new System.Drawing.Point(455, 266);
@@ -592,7 +592,7 @@
             // 
             // button40
             // 
-            this.button40.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button40.BackColor = System.Drawing.Color.PaleGreen;
             this.button40.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button40.BackgroundImage")));
             this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button40.Location = new System.Drawing.Point(499, 266);
@@ -604,7 +604,7 @@
             // 
             // button41
             // 
-            this.button41.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button41.BackColor = System.Drawing.Color.PaleGreen;
             this.button41.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button41.BackgroundImage")));
             this.button41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button41.Location = new System.Drawing.Point(543, 266);
@@ -616,7 +616,7 @@
             // 
             // button42
             // 
-            this.button42.BackColor = System.Drawing.Color.LightCoral;
+            //this.button42.BackColor = System.Drawing.Color.LightCoral;
             this.button42.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button42.BackgroundImage")));
             this.button42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button42.Location = new System.Drawing.Point(467, 230);
@@ -628,7 +628,7 @@
             // 
             // button43
             // 
-            this.button43.BackColor = System.Drawing.Color.LightCoral;
+            //this.button43.BackColor = System.Drawing.Color.LightCoral;
             this.button43.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button43.BackgroundImage")));
             this.button43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button43.Location = new System.Drawing.Point(511, 230);
@@ -640,7 +640,7 @@
             // 
             // button44
             // 
-            this.button44.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button44.BackColor = System.Drawing.Color.PaleGreen;
             this.button44.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button44.BackgroundImage")));
             this.button44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button44.Location = new System.Drawing.Point(555, 230);
@@ -652,7 +652,7 @@
             // 
             // button45
             // 
-            this.button45.BackColor = System.Drawing.Color.LightCoral;
+            //this.button45.BackColor = System.Drawing.Color.LightCoral;
             this.button45.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button45.BackgroundImage")));
             this.button45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button45.Location = new System.Drawing.Point(476, 194);
@@ -664,7 +664,7 @@
             // 
             // button46
             // 
-            this.button46.BackColor = System.Drawing.Color.LightCoral;
+            //this.button46.BackColor = System.Drawing.Color.LightCoral;
             this.button46.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button46.BackgroundImage")));
             this.button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button46.Location = new System.Drawing.Point(520, 194);
@@ -676,7 +676,7 @@
             // 
             // button47
             // 
-            this.button47.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button47.BackColor = System.Drawing.Color.PaleGreen;
             this.button47.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button47.BackgroundImage")));
             this.button47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button47.Location = new System.Drawing.Point(564, 194);
@@ -688,7 +688,7 @@
             // 
             // button48
             // 
-            this.button48.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button48.BackColor = System.Drawing.Color.PaleGreen;
             this.button48.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button48.BackgroundImage")));
             this.button48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button48.Location = new System.Drawing.Point(476, 158);
@@ -700,7 +700,7 @@
             // 
             // button49
             // 
-            this.button49.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button49.BackColor = System.Drawing.Color.PaleGreen;
             this.button49.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button49.BackgroundImage")));
             this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button49.Location = new System.Drawing.Point(520, 158);
@@ -712,7 +712,7 @@
             // 
             // button50
             // 
-            this.button50.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button50.BackColor = System.Drawing.Color.PaleGreen;
             this.button50.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button50.BackgroundImage")));
             this.button50.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button50.Location = new System.Drawing.Point(564, 158);
@@ -724,7 +724,7 @@
             // 
             // button51
             // 
-            this.button51.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button51.BackColor = System.Drawing.Color.PaleGreen;
             this.button51.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button51.BackgroundImage")));
             this.button51.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button51.Location = new System.Drawing.Point(476, 122);
@@ -736,7 +736,7 @@
             // 
             // button52
             // 
-            this.button52.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button52.BackColor = System.Drawing.Color.PaleGreen;
             this.button52.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button52.BackgroundImage")));
             this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button52.Location = new System.Drawing.Point(520, 122);
@@ -748,7 +748,7 @@
             // 
             // button53
             // 
-            this.button53.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button53.BackColor = System.Drawing.Color.PaleGreen;
             this.button53.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button53.BackgroundImage")));
             this.button53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button53.Location = new System.Drawing.Point(564, 122);
@@ -760,7 +760,7 @@
             // 
             // button54
             // 
-            this.button54.BackColor = System.Drawing.Color.LightCoral;
+            //this.button54.BackColor = System.Drawing.Color.LightCoral;
             this.button54.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button54.BackgroundImage")));
             this.button54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button54.Location = new System.Drawing.Point(205, 158);
@@ -772,7 +772,7 @@
             // 
             // button55
             // 
-            this.button55.BackColor = System.Drawing.Color.LightCoral;
+            //this.button55.BackColor = System.Drawing.Color.LightCoral;
             this.button55.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button55.BackgroundImage")));
             this.button55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button55.Location = new System.Drawing.Point(249, 158);
@@ -784,7 +784,7 @@
             // 
             // button56
             // 
-            this.button56.BackColor = System.Drawing.Color.LightCoral;
+            //this.button56.BackColor = System.Drawing.Color.LightCoral;
             this.button56.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button56.BackgroundImage")));
             this.button56.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button56.Location = new System.Drawing.Point(293, 158);
@@ -796,7 +796,7 @@
             // 
             // button57
             // 
-            this.button57.BackColor = System.Drawing.Color.LightCoral;
+            //this.button57.BackColor = System.Drawing.Color.LightCoral;
             this.button57.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button57.BackgroundImage")));
             this.button57.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button57.Location = new System.Drawing.Point(337, 158);
@@ -808,7 +808,7 @@
             // 
             // button58
             // 
-            this.button58.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button58.BackColor = System.Drawing.Color.PaleGreen;
             this.button58.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button58.BackgroundImage")));
             this.button58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button58.Location = new System.Drawing.Point(381, 158);
@@ -820,7 +820,7 @@
             // 
             // button59
             // 
-            this.button59.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button59.BackColor = System.Drawing.Color.PaleGreen;
             this.button59.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button59.BackgroundImage")));
             this.button59.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button59.Location = new System.Drawing.Point(205, 122);
@@ -832,7 +832,7 @@
             // 
             // button60
             // 
-            this.button60.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button60.BackColor = System.Drawing.Color.PaleGreen;
             this.button60.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button60.BackgroundImage")));
             this.button60.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button60.Location = new System.Drawing.Point(249, 122);
@@ -844,7 +844,7 @@
             // 
             // button61
             // 
-            this.button61.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button61.BackColor = System.Drawing.Color.PaleGreen;
             this.button61.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button61.BackgroundImage")));
             this.button61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button61.Location = new System.Drawing.Point(293, 122);
@@ -856,7 +856,7 @@
             // 
             // button62
             // 
-            this.button62.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button62.BackColor = System.Drawing.Color.PaleGreen;
             this.button62.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button62.BackgroundImage")));
             this.button62.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button62.Location = new System.Drawing.Point(337, 122);
@@ -868,7 +868,7 @@
             // 
             // button63
             // 
-            this.button63.BackColor = System.Drawing.Color.PaleGreen;
+            //this.button63.BackColor = System.Drawing.Color.PaleGreen;
             this.button63.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button63.BackgroundImage")));
             this.button63.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button63.Location = new System.Drawing.Point(381, 122);
@@ -890,6 +890,7 @@
             this.button64.Size = new System.Drawing.Size(47, 44);
             this.button64.TabIndex = 68;
             this.button64.UseVisualStyleBackColor = false;
+            this.button64.Click += new System.EventHandler(this.button64_Click);
             // 
             // button65
             // 
@@ -903,6 +904,7 @@
             this.button65.Size = new System.Drawing.Size(47, 44);
             this.button65.TabIndex = 69;
             this.button65.UseVisualStyleBackColor = false;
+            this.button65.Click += new System.EventHandler(this.button65_Click);
             // 
             // button66
             // 
@@ -1000,6 +1002,7 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+            //this.setColors();
         }
 
         #endregion

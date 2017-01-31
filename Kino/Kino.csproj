@@ -69,6 +69,7 @@
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Projekcija.cs" />
     <Compile Include="Projekcije.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +82,9 @@
     </Compile>
     <Compile Include="Racun.Designer.cs">
       <DependentUpon>Racun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seat.cs">
+      <SubType>Component</SubType>
     </Compile>
     <EmbeddedResource Include="Administracija.resx">
       <DependentUpon>Administracija.cs</DependentUpon>
@@ -110,6 +114,8 @@
     <EmbeddedResource Include="Racun.resx">
       <DependentUpon>Racun.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\Login.datasource" />
+    <None Include="Properties\DataSources\Projekcija.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
